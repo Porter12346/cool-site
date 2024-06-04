@@ -101,3 +101,17 @@ h2 {
     font-size: small;
     margin: 0;
 }
+
+@media screen and (max-width: 600px) {
+    .center-page {
+        flex-direction: column;
+    }
+
+    body {
+        height: fill;
+    }
+
+    .world {
+        width: 100%;
+    }
+}
